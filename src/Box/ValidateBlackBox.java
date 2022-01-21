@@ -23,27 +23,26 @@ public class ValidateBlackBox {
     public ArrayList<List<Map<String, String>>> validation_seeking() {
 
         HashMap<String, String> GETValues0 = new HashMap<>();
-
         GETValues0.put("list0", "customer");
         GETValues0.put("page0", "2");
-        HashMap<String, String> GETValues1 = new HashMap<>();
 
+        HashMap<String, String> GETValues1 = new HashMap<>();
         GETValues1.put("list1", "customer");
         GETValues1.put("page1", "2");
-        HashMap<String, String> GETValues2 = new HashMap<>();
 
+        HashMap<String, String> GETValues2 = new HashMap<>();
         GETValues2.put("list2", "customer");
         GETValues2.put("page2", "2");
+        
         HashMap<String, String> GETValues3 = new HashMap<>();
-
         GETValues3.put("list0", "customer");
         GETValues3.put("page0", "2");
-        HashMap<String, String> GETValues4 = new HashMap<>();
 
+        HashMap<String, String> GETValues4 = new HashMap<>();
         GETValues4.put("list1", "customer");
         GETValues4.put("page1", "2");
-        HashMap<String, String> GETValues5 = new HashMap<>();
 
+        HashMap<String, String> GETValues5 = new HashMap<>();
         GETValues5.put("list2", "customer");
         GETValues5.put("page2", "2");
 
