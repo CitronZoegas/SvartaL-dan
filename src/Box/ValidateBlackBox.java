@@ -33,7 +33,7 @@ public class ValidateBlackBox {
         HashMap<String, String> GETValues2 = new HashMap<>();
         GETValues2.put("list2", "customer");
         GETValues2.put("page2", "2");
-        
+
         HashMap<String, String> GETValues3 = new HashMap<>();
         GETValues3.put("list0", "customer");
         GETValues3.put("page0", "2");

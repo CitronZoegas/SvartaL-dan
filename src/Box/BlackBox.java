@@ -21,8 +21,8 @@ public class BlackBox {
         }
 
         if (customerInfo == null && customerInfo.size() != 0) {
-        }
 
+        }
         return url_start;
     }
 
@@ -34,6 +34,8 @@ public class BlackBox {
     }
 
     public boolean check_ssl(String urlSafe) {
+        //checking 443 port
+        //checking '1' and 'on'(?)
         return urlSafe.toLowerCase(Locale.ROOT).startsWith("https://");
     }
 }
