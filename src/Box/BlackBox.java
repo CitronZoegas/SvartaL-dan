@@ -1,9 +1,6 @@
 package Box;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
+import java.util.*;
 
 public class BlackBox {
     private URLHandler urlHandler;
@@ -14,15 +11,22 @@ public class BlackBox {
     }
 
     public String URL(ArrayList<List<Map<String, String>>> customerInfo, String urlStr) {
-        String url_start = null;
-        urlStr = this.recursive_method(urlStr);
-        if (this.check_ssl(urlStr)) {
+        if (customerInfo == null || customerInfo.size() == 0) {
+            return null;
+        }
+
+        String url_start = recursive_method(urlStr);
+
+        if (check_ssl(urlStr)) {
             url_start = urlStr.replace("http://", "https://");
         }
 
-        if (customerInfo == null && customerInfo.size() != 0) {
 
+        for(int i = 0; i< customerInfo.get(2).size(); i++) {
+            System.out.println(customerInfo.get(1) + "lol");
         }
+
+
         return url_start;
     }
 

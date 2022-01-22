@@ -12,6 +12,13 @@ public class user_Information {
                     new user_Information("foo", "bar"),
                     new user_Information("foo", "bar")};
 
+    /**
+     * This way of creating the information would make the iteration of the "3D multi type array alot easier since
+     * we have a common ground, objects.
+     *
+     * @param list
+     * @param page
+     */
     public user_Information(String list, String page) {
         this.list = list;
         this.page = page;
