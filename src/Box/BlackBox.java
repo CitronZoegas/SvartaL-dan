@@ -21,9 +21,8 @@ public class BlackBox {
             url_start = urlStr.replace("http://", "https://");
         }
 
-
-        for(int i = 0; i< customerInfo.get(2).size(); i++) {
-            //System.out.println(customerInfo.get(1);
+        for(int i = 0; i< customerInfo.size(); i++) {
+            System.out.println(customerInfo.get(0));
         }
         return url_start;
     }
