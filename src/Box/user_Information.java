@@ -31,4 +31,13 @@ public class user_Information {
     public String getPage() {
         return this.page;
     }
+
+    //
+    public user_Information[] iterateArray() {
+
+        for(int i =0; i< _GET.length; i++) {
+
+        }
+        return null;
+    }
 }

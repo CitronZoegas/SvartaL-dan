@@ -5,7 +5,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        URLHandler urlHandler = new URLHandler();
+        URLController urlHandler = new URLController();
         BlackBox BBox = new BlackBox(urlHandler);
         ValidateBlackBox VBlackBox = new ValidateBlackBox();
 

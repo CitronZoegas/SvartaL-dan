@@ -1,13 +1,13 @@
 package Box;
 
-public class URLHandler {
-    public URLHandler() {
+public class URLController {
+    public URLController() {
     }
 
     public String getURL() {
         String URL = null;
         URL = "https://lolchess.gg/profile/euw/javaconnoisseur";
-        System.out.println(URL);
+        //System.out.println(URL);
         return URL;
     }
 }
