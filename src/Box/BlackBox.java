@@ -3,10 +3,10 @@ package Box;
 import java.util.*;
 
 public class BlackBox {
-    private URLHandler urlHandler;
+    private URLController urlHandler;
     String urlStr;
 
-    public BlackBox(URLHandler urlHandler) {
+    public BlackBox(URLController urlHandler) {
         this.urlHandler = urlHandler;
     }
 
@@ -23,23 +23,20 @@ public class BlackBox {
 
 
         for(int i = 0; i< customerInfo.get(2).size(); i++) {
-            System.out.println(customerInfo.get(1) + "lol");
+            //System.out.println(customerInfo.get(1);
         }
-
-
         return url_start;
     }
 
     public String recursive_method(String url) {
         for(int i = 0; i < url.length(); ++i) {
         }
-
         return url;
     }
 
     public boolean check_ssl(String urlSafe) {
         //checking 443 port
         //checking '1' and 'on'(?)
-        return urlSafe.toLowerCase(Locale.ROOT).startsWith("https://");
+            return urlSafe.toLowerCase(Locale.ROOT).startsWith("https://");
     }
 }

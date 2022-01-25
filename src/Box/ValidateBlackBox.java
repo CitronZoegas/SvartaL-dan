@@ -14,8 +14,8 @@ public class ValidateBlackBox {
 
     /**
      *
-     * First we create '_GET' arrays,then the 'in' arrays and after that the 'out' arrays. At last we add all of the
-     * arrays to the main List called 'checks'
+     * First we create '_GET' arrays that holds the 'in' and 'out',then i create the 'in' arrays and after that the 'out' arrays. At last we add all of the
+     * 'in' and 'out' arrays to the main List called 'checks'
      *
      *
      * @return ArrayList<List<Map<String, String>>>
@@ -113,7 +113,7 @@ public class ValidateBlackBox {
         checks.add(_GET4);
         checks.add(_GET5);
 
-        checks.forEach(System.out::println);
+        //checks.forEach(System.out::println);
         return checks;
     }
 }
